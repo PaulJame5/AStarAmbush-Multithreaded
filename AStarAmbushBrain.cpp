@@ -1,4 +1,4 @@
-/// Based on Geeks for Geeks AStar, modified to fit with the project
+/// Geeks for Geeks AStar Implementation, modified to fit with the project
 #include "AStarAmbushBrain.h"
 #include "LevelManager.h"
 AStarAmbushBrain::AStarAmbushBrain()
@@ -210,7 +210,7 @@ bool AStarAmbushBrain::aStarSearch(std::pair<int, int> src, std::pair<int, int> 
 				hNew = calculateHValue(i - 1, j, dest);
 				fNew = gNew + hNew;
 
-				// If it isn’t on the open list, add it to
+				// If it isnâ€™t on the open list, add it to
 				// the open list. Make the current square
 				// the parent of this square. Record the
 				// f, g, and h costs of the square cell
@@ -258,7 +258,7 @@ bool AStarAmbushBrain::aStarSearch(std::pair<int, int> src, std::pair<int, int> 
 				hNew = calculateHValue(i + 1, j, dest);
 				fNew = gNew + hNew;
 
-				// If it isn’t on the open list, add it to
+				// If it isnâ€™t on the open list, add it to
 				// the open list. Make the current square
 				// the parent of this square. Record the
 				// f, g, and h costs of the square cell
@@ -306,7 +306,7 @@ bool AStarAmbushBrain::aStarSearch(std::pair<int, int> src, std::pair<int, int> 
 				hNew = calculateHValue(i, j + 1, dest);
 				fNew = gNew + hNew;
 
-				// If it isn’t on the open list, add it to
+				// If it isnâ€™t on the open list, add it to
 				// the open list. Make the current square
 				// the parent of this square. Record the
 				// f, g, and h costs of the square cell
@@ -355,7 +355,7 @@ bool AStarAmbushBrain::aStarSearch(std::pair<int, int> src, std::pair<int, int> 
 				hNew = calculateHValue(i, j - 1, dest);
 				fNew = gNew + hNew;
 
-				// If it isn’t on the open list, add it to
+				// If it isnâ€™t on the open list, add it to
 				// the open list. Make the current square
 				// the parent of this square. Record the
 				// f, g, and h costs of the square cell
@@ -405,7 +405,7 @@ bool AStarAmbushBrain::aStarSearch(std::pair<int, int> src, std::pair<int, int> 
 				hNew = calculateHValue(i - 1, j + 1, dest);
 				fNew = gNew + hNew;
 
-				// If it isn’t on the open list, add it to
+				// If it isnâ€™t on the open list, add it to
 				// the open list. Make the current square
 				// the parent of this square. Record the
 				// f, g, and h costs of the square cell
@@ -455,7 +455,7 @@ bool AStarAmbushBrain::aStarSearch(std::pair<int, int> src, std::pair<int, int> 
 				hNew = calculateHValue(i - 1, j - 1, dest);
 				fNew = gNew + hNew;
 
-				// If it isn’t on the open list, add it to
+				// If it isnâ€™t on the open list, add it to
 				// the open list. Make the current square
 				// the parent of this square. Record the
 				// f, g, and h costs of the square cell
@@ -504,7 +504,7 @@ bool AStarAmbushBrain::aStarSearch(std::pair<int, int> src, std::pair<int, int> 
 				hNew = calculateHValue(i + 1, j + 1, dest);
 				fNew = gNew + hNew;
 
-				// If it isn’t on the open list, add it to
+				// If it isnâ€™t on the open list, add it to
 				// the open list. Make the current square
 				// the parent of this square. Record the
 				// f, g, and h costs of the square cell
@@ -554,7 +554,7 @@ bool AStarAmbushBrain::aStarSearch(std::pair<int, int> src, std::pair<int, int> 
 				hNew = calculateHValue(i + 1, j - 1, dest);
 				fNew = gNew + hNew;
 
-				// If it isn’t on the open list, add it to
+				// If it isnâ€™t on the open list, add it to
 				// the open list. Make the current square
 				// the parent of this square. Record the
 				// f, g, and h costs of the square cell
